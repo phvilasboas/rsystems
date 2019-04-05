@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Root Systems</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="h">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="countdown-header">
+            <div class="countdown" data-date="2019/05/05"></div>
+          </div>
+          <h1>Estamos Trabalhando em um <bold>SITE</bold> novinho</h1>
+        </div>
+      </div>
+      <!--/row-->
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+          <img src="img/phones.png" class="img-responsive aligncenter" alt="">
+        </div>
+      </div>
+      <!--/row-->
+    </div>
+    <!--/container-->
+  </div>
+  <!--/H-->
+
+  <div id="g">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 centered">
+          <h2>
+Estamos trabalhando muito para lançar nosso novo site incrível.</h2>
+          <div class="col-md-6 col-md-offset-3">
+            <form role="form" action="register.php" method="post" enctype="plain">
+              <input type="email" name="email" class="subscribe-input" placeholder="Insira seu email..." required>
+              <button class='btn btn-conf btn-go' type="submit">Tenha acesso primeiro</button>
+            </form>
+          </div>
+        </div>
+        <!--/col-md-8-->
+      </div>
+      <!--/row-->
+    </div>
+    <!--/container-->
+  </div>
+  <!--/G-->
+
+  <div class="container ptb">
+    <div class="row centered">
+      <div class="col-md-4">
+        <i class="ion-ios7-bolt-outline"></i>
+        <h4>INOVAÇÃO</h4>
+        <p></p>
+      </div>
+      <!--/col-md-4-->
+      <div class="col-md-4">
+        <i class="ion-ios7-infinite-outline"></i>
+        <h4>TECNOLOGIA</h4>
+        <p></p>
+      </div>
+      <!--/col-md-4-->
+      <div class="col-md-4">
+        <i class="ion-ios7-glasses-outline"></i>
+        <h4>PRATICIDADE</h4>
+        <p></p>
+      </div>
+      <!--/col-md-4-->
+    </div>
+    <!--/row-->
+  </div>
+  <!--/container-->
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h2 class="centered">Formulário de contato</h2>
+          <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
+
+            <div class="form-group">
+              <input type="name" name="name" class="form-control" id="contact-name" placeholder="Seu Nome" data-rule="minlen:4" data-msg="Por favor, insira pelo menos 4 caracteres" >
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" class="form-control" id="contact-email" placeholder="Seu email" data-rule="email" data-msg="por favor digite um email válido">
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <input type="text" name="subject" class="form-control" id="contact-subject" placeholder="Assunto" data-rule="minlen:4" data-msg="Por favor, insira pelo menos 8 caracteres de assunto">
+              <div class="validate"></div>
+            </div>
+
+            <div class="form-group">
+              <textarea class="form-control" name="message" id="contact-message" placeholder="Sua Mensagem" rows="5" data-rule="required" data-msg="
+Por favor, escreva algo para nós"></textarea>
+              <div class="validate"></div>
+            </div>
+
+            <div class="loading"></div>
+            <div class="error-message"></div>
+            <div class="sent-message">
+Sua mensagem foi enviada. Obrigado!</div>
+
+            <div class="form-send">
+              <button type="submit" class="btn btn-large">Enviar Mensagem</button>
+            </div>
+
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- / contact -->
+
+  <div id="copyrights">
+    <div class="container">
+      <p>
+        &copy; Copyrights <strong>Root Systems</strong>. Todos os direitos reservados
+      </p>
+     </div>
+  </div>
+  <!-- / copyrights -->
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/php-mail-form/validate.js"></script>
+  <script src="lib/countdown/jquery.plugin.min.js"></script>
+  <script src="lib/countdown/jquery.countdown.min.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
